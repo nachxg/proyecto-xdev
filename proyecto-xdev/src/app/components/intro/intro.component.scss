@@ -1,0 +1,30 @@
+@import 'styles';
+
+.grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: $primario;
+    
+    .logo {
+        color: $secundario;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: 5rem;
+        padding-right: 50px;
+        
+        .fifa{
+            font-weight: 100;
+        }
+
+    }   
+
+    .papel{
+        background-color: #befa33;
+        background-image: url('../../../assets/fondo-papel.png');
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+
+}
